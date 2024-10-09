@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #00796b;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+#wordContainer {
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+.inputSection {
+    margin-top: 20px;
+}
+
+#letterInput {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #00796b;
+    outline: none;
+    width: 50px;
+    text-align: center;
+}
+
+#guessButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#guessButton:hover {
+    background-color: #004d40;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #00796b;
+    font-weight: bold;
+}
+
+#attempts {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+#hangman {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#restartButton {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#restartButton:hover {
+    background-color: #004d40;
+}
+/* Estilos existentes para el cuerpo y los elementos */
+#hangmanCanvas {
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ddd;
+}
